@@ -1,0 +1,25 @@
+{
+  "name": "csvmanager",
+  "version": "1.0.0",
+  "description": "To manage a big csv file",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pigman8857/csvmanager.git"
+  },
+  "keywords": [
+    "csv"
+  ],
+  "author": "OhSva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pigman8857/csvmanager/issues"
+  },
+  "homepage": "https://github.com/pigman8857/csvmanager#readme",
+  "dependencies": {
+    "csv": "^5.3.1"
+  }
+}
