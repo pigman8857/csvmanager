@@ -21,31 +21,6 @@ fs.readFile(filePath,function(err,data){
     console.log(input);
     console.log();
     console.log();
-    /*
-    let arr = [];
-    let q = [];
-    for (let i = 0; i < input.length; i++) {
-        const e = input[i];
-        console.log(e);
-        arr.push(e);
-        if(e === '\u0000'){
-            q.push(e);    
-        }
-    }
-    console.log(arr);
-    console.log(q);
-    */
-    /*
-    input = input.replace(/\u0000/g,'').replace('��','').replace(/\t/g,',');;
-    console.log()
-    console.log('after clean up');
-    console.log(input);
-    */
-    /*
-    let input2 = `"User Id","MID","Display Name","Profile Picture","Crm Id","First Name","Last Name","Thai Citizen Id","Gender","Date Of Birth","Phone Number","Email","Address","Street","Sub District","District","City","Zipcode","Groups","Categories","Beacons","Text Message - ohsva (exact)"
-    "5360540","U2d5f47348dce2859a4de746e5b80eaed","Oh SVA","https://profile.line-scdn.net/0hk9OWPt4sNBZyLh-bC71LQU5rOnsFADJeCkB8I14paXVYGXRETkl4JQApOXRbHSdGGkF9dQcoaiYN","-","-","-","-","-","-","-","-","-","-","-","-","-","-","PLSO EMIT LINE Group, test, MCX","-","-","Message #1: ohsva"`;
-    */
-    
     
     const parser = parse(input,option);
 
