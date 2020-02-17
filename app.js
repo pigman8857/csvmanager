@@ -1,7 +1,7 @@
 const fs = require('fs');
+const csv2json = require('csv2json');
 const filePath = "/Users/admin/Documents/header.csv";
 
-fs.readFile(filePath,function(err,data){
-    const content = data.toString();
-    console.log(content);
+csv2json().fromFile(filePath).then(source => {
+    console.log(source);
 });
