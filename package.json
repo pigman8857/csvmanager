@@ -2,7 +2,7 @@
   "name": "csvmanager",
   "version": "1.0.0",
   "description": "To manage a big csv file",
-  "main": "app.js",
+  "main": "app2.js",
   "scripts": {
     "test": "node app.js"
   },
@@ -20,7 +20,6 @@
   },
   "homepage": "https://github.com/pigman8857/csvmanager#readme",
   "dependencies": {
-    "csv": "^5.3.1",
-    "csvtojson": "^2.0.10"
+    "csv": "^5.3.1"
   }
 }
