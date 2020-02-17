@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/pigman8857/csvmanager#readme",
   "dependencies": {
-    "csv": "^5.3.1"
+    "csv": "^5.3.1",
+    "csv2json": "^2.0.2"
   }
 }
